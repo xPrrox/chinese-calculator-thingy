@@ -1,0 +1,6 @@
+void main (void)
+#include <math.h>
+#include <stdio.h>
+{ 
+ printf("t");
+}
