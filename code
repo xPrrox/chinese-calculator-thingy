@@ -6,12 +6,16 @@ int main ()
 //Class:TT01
 //Mini-project stage:2
 //This program purpose is a recipe analayser+ diet recommender and BMI(Body Mass Index) calculator.
-//the inputs(recipe analayser+diet recommender): age of user, gender of user, food eaten by user(max 10 choices).
+//the inputs(recipe analayser+diet recommender): age of user, gender of user, food eaten by user(max 5 choices).
 //the outputs(): Energy (kcal),Protein (g),Total fat (g),Saturated fat (g),Dietary fibre (g),Carbohydrate (g),Cholesterol (mg),Sodium (mg)
 //All stats are based per 100g. More outputs: states if meal is healthy or unhealthy and provides a reason on that.
 //the inputs(BMI):user will give their height and weight 
 //the outputs(BMI): their BMI will be calculated and a comment will be given about their BMI
 //resources used: https://focos.hpb.gov.sg/eservices/ENCF/ and Express/ Normal (Academic) Food Matters- Chin Pooi Pooi, Ethel Su-Hsin Chong, Mayer Chan Moo Nin, Ong Pang Soon
- printf("t");
+ printf("-=-=-=Welcome to this program's menu!=-=-=-\n");
+ printf("Choose an Option(the number next to it) from this list to start using this program!\n");
+ printf("1. BMI Calculator\n");
+ printf("2. Recipe Analyser\n");
+ printf("3. Quit");
  return 0;
 }
